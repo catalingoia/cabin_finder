@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+}
+
+.banner {
+  background-image: url("./img/padure.jpg");
+  height: 47vh;
+  position: relative;
+}
+.image {
+  display: inline-block;
+}
+.banner_info {
+  margin-left: 50px;
+  background-color: rgb(53, 38, 73);
+  width: 350px;
+  padding: 20px;
+  color: white;
+  display: inline-block;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: rgb(137, 91, 184) !important;
+}
+
+.banner_info > button {
+  background-color: rgb(137, 91, 184);
+  color: white;
+  margin-top: 20px;
+  text-transform: inherit;
+  font-weight: 600;
+}
+
+.banner_info > h1 {
+  font-size: 40px;
+}
+
+.banner_info > h5 {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+.banner_info > button:hover {
+  background-color: white;
+  color: rgb(137, 91, 184);
+}
